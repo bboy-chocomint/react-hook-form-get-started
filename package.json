@@ -2,6 +2,7 @@
   "name": "react-hook-form-get-started",
   "version": "0.1.0",
   "private": true,
+  "description": "This is practice for https://react-hook-form.com/get-started/#Quickstart",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.1.0",
+    "@material-ui/core": "^4.12.4",
     "@types/node": "18.16.3",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.3",
@@ -17,6 +20,9 @@
     "next": "13.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-hook-form": "^7.43.9",
+    "react-select": "^5.7.3",
+    "typescript": "5.0.4",
+    "yup": "^1.1.1"
   }
 }
